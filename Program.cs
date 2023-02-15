@@ -1,5 +1,13 @@
 ﻿// Задание: Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символа.
 
+string[] myArray = new string[] {"hello", "2", "world", ":-)"};
+PrintArray(myArray);
+Console.WriteLine("----------------------");
+string[] myArray2 = NewArray(myArray);
+PrintArray(myArray2);
+
+
+
 //-------------Методы--------------
 string[] NewArray(string[] array)
 {
